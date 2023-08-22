@@ -21,6 +21,7 @@
   * Insufficient permissions to add Tags to ECR Repos
   * Insufficient permissions to deploy a CF Logs Group
     * I hadn’t thought at the time it may be possible to use a default group, and didn’t investigate this properly.
+  * Insufficient permissions to update an ASG Target (` not authorized to perform: iam:PassRole ... because no identity-based policy allows the iam:PassRole action`)
 
 * Docker Build - I've previously run into a problem here, which was fixed by setting `--platform=linux/amd64` - see [here](https://stackoverflow.com/questions/67361936/exec-user-process-caused-exec-format-error-in-aws-fargate-service).
 
